@@ -1,4 +1,4 @@
-2016-07-31,helloworld.markdown
+2016-07-31-helloworld.markdown
 ---
 layout: post
 ---

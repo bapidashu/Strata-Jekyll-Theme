@@ -2,7 +2,7 @@
 layout: post
 ---
 <img src="/images/fulls/02.jpg" class="fit image">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus fringilla dui. Donec laoreet maximus elit. Mauris ullamcorper condimentum lobortis. Donec maximus, mi vitae iaculis placerat, ligula mi maximus lectus, ac varius mi nulla id neque. Quisque porta eros nisi, eu fringilla urna dictum vitae. 
+今天自己成功的把自己的博客建立了起来,很开心^-^. 
 
 Vestibulum id metus eu nisl sodales consectetur. Phasellus et ultrices lacus.
 
