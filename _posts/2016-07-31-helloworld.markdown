@@ -1,4 +1,3 @@
-2016-07-31-helloworld.markdown
 ---
 layout: post
 title: Quite
