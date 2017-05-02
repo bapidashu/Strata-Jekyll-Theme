@@ -1,12 +1,12 @@
+
 ---
 layout: post
 title: 我是测试
 date: 2016-07-31
 ---
-<img src="/images/fulls/02.jpg" class="fit image">
+<!--<img src="/images/fulls/02.jpg" class="fit image">-->
 
 重新测试 
 啦啦啦啦啦
-{ {post.weather} }
 Vestibulum id metus eu nisl sodales consectetur. Phasellus et ultrices lacus.
 
