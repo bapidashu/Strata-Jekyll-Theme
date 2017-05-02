@@ -10,13 +10,7 @@ categories: update
 分享一下我们iOS开发者在项目中项目中用到的一些iOS开源库和第三方组件,**感谢开源**,减少了我们的劳动力,节约了我们大量的时间, 让我们有更多的时间和精力能更加专注的做好自己的产品
 
 ## 常用的cocoapod安装的第三方库
-| name          | info          | star  |
-| ------------- |:-------------:| -----:|
-| [AFNetworking](https://github.com/AFNetworking/AFNetworking) | *非常好用的网络请求组件,现在已经基本取代ASI* | ***** |
 
-    | 水果        | 价格    |  数量  |
-    | --------   | -----:   | :----: |
-    | 香蕉        | $1      |   5    |
-    | 苹果        | $1      |   6    |
-    | 草莓        | $1      |   7    |
+'[AFNetworking](https://github.com/AFNetworking/AFNetworking)'
+
 
