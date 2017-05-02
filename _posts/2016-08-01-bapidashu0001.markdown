@@ -12,7 +12,7 @@ categories: update
 ## 常用的cocoapod安装的第三方库
 
 ```
-[AFNetworking](https://github.com/AFNetworking/AFNetworking)' 网络请求框架
+[AFNetworking](https://github.com/AFNetworking/AFNetworking) 网络请求框架
 ```
 
 
