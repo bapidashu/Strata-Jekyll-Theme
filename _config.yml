@@ -22,4 +22,5 @@ facebook_username:    example  # Replace this with your Facebook username
 dribbble_username:    example  # Replace this with your Dribbble username
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
