@@ -11,9 +11,8 @@ categories: update
 
 ## 常用的cocoapod安装的第三方库
 
-```
-[AFNetworking](https://github.com/AFNetworking/AFNetworking) 网络请求框架
-```
+1. [AFNetworking](https://github.com/AFNetworking/AFNetworking) 网络请求框架
+2. [FMDB](https://github.com/ccgus/fmdb) 本地数据库组件
 
 
 
