@@ -1,0 +1,68 @@
+---
+layout: post
+title:  iOS常用的组件和第三方库
+date:   2016-08-27 01:08:00 +0800
+categories: iOS
+tag: 学习资料
+---
+
+* content
+{:toc}
+
+
+
+
+<img src="/styles/images/blogImg/blog0001.jpg" class="fit image">
+## 前提
+分享一下我们iOS开发者在项目中项目中用到的一些iOS开源库和第三方组件,**感谢开源**,减少了我们的劳动力,节约了我们大量的时间, 让我们有更多的时间和精力能更加专注的做好自己的产品
+
+## 常用的cocoapod安装的第三方库
+1. [AFNetworking](https://github.com/AFNetworking/AFNetworking) 网络请求框架
+2. [FMDB](https://github.com/ccgus/fmdb) 本地数据库组件
+3. [SDWebImage](https://github.com/rs/SDWebImage) 用途广泛的图片缓存下载显示组件,功能强大
+4. [Reachability](https://github.com/tonymillion/Reachability) 大规模使用的检测网络的几个类
+5. [DateTools](https://github.com/MatthewYork/DateTools) 友好化时间
+6. [MBProgressHUD](https://github.com/jdg/MBProgressHUD) 弹出提示框的控件,但是现在基本上被[SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) 代替,SVP使用和配置更简便,可以满足我们大部分的需求,但是如果定制一些比较复杂的弹出框的时候,还是建议用MBP
+7. [MWPhotoBrowser](https://github.com/mwaterfall/MWPhotoBrowser) 一款简单实用的iOS照片浏览控件
+8. [CTAssetsPickerController](https://github.com/chiunam/CTAssetsPickerController) 一个选择器组件, 支持从用户的相片库选择多张照片和视频。
+9. [TZImagePickerController](https://github.com/bapidashu/TZImagePickerController) 一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能，支持iOS6+
+10. [UAAppReviewManager](https://github.com/UrbanApps/UAAppReviewManager) 一个能够让你方便地将提醒用户评分的功能加入 App 的工具
+11. [Mantle](https://github.com/Mantle/Mantle) 主要用来将 JSON 数据模型化为 Model 对象
+12. [MTLFMDBAdapter](https://github.com/tanis2000/MTLFMDBAdapter) Mantle 和 FMDB 的转换工具
+13. [FMDBMigrationManager](https://github.com/layerhq/FMDBMigrationManager) 支持 iOS SQLite 数据库迁移
+14. [GVUserDefaults](https://github.com/gangverk/GVUserDefaults) 对 NSUserDefaults 进行了封装, 方便的进行本地化存储操作
+15. [FCCurrentLocationGeocoder](https://github.com/fabiocaccamo/FCCurrentLocationGeocoder) 对用户当前地理位置进行正向地址编码和反向地址编码
+16. [AFSwipeToHide](https://github.com/appfigures/AFSwipeToHide) 页面滚动时隐藏工具栏
+17. [BaiduTranslate](https://github.com/summerblue/baidu-translate-ios-sdk) 非官方百度翻译工具
+18. [JSBadgeView](https://github.com/JaviSoto/JSBadgeView) 添加带动画效果的未读消息数提醒
+19. [Masonry](https://github.com/SnapKit/Masonry) OC中用的最多的布局框架,用于替换官方的 AutoLayout 写法,当然你如果用swift的话,也有Swift版的[SnapKit](https://github.com/SnapKit/Masonry)
+20. [MMPlaceHolder](https://github.com/adad184/MMPlaceHolder) 可在应用中显示视图的尺寸
+21. [TOWebViewController](https://github.com/TimOliver/TOWebViewController) 可在应用中嵌套 Web 页面
+
+## 常用的第三方类库安装
+1. [MJRefresh](https://github.com/CoderMJLee/MJRefresh) 下拉刷新，上拉加载更多组件,当然李明杰还有个比较著名的字典转模型的库[MJExtension](https://github.com/CoderMJLee/MJExtension)
+2. [CNPPopupController](https://github.com/carsonperrotti/CNPPopupController) 创建弹出卡片视图
+3. [FeSpinner](加入沙漏等多种动画加载效果) 
+4. [CRToast](https://github.com/cruffenach/CRToast) 从应用状态栏弹出消息提醒
+5. [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) 为 TableView 和 CollectionView 展示空数据视图,这个相信很多人都遇到过
+6. [FXBlurView](https://github.com/nicklockwood/FXBlurView) 对视图进行模糊操作,这个虽然苹果官方有毛玻璃效果的开源类,但是用起来不顺手,而且会有一些小问题
+7. [AreaPicker](https://github.com/cloudorz/areapicker) 省市地理位置选择器,以后选择省市的时候再也不用去自己找数据了
+8. [MLAudioRecorder](http://www.jianshu.com/p/MLAudioRecorder) 边录边转码, 播放网络音频Button(本地缓存), 实时语音
+9. [MPTextView](https://github.com/cbowns/MPTextView) 支持占位符的 UITextView 子类扩展
+10. [THProgressView](https://github.com/tiagomnh/THProgressView) 微型加载进度条
+11. [VPImageCropper](https://github.com/windshg/VPImageCropper) 轻松实现微信选取图片并裁剪成头像的控件
+
+
+## 常用的第三方服务
+1. [阿里云](https://www.aliyun.com/?utm_medium=text&utm_source=bdbrand&utm_campaign=bdbrand&utm_content=se_32492)
+2. [友盟社会化组件](http://dev.umeng.com/social/ios/sdk-download)
+3. [极光推送](http://docs.jpush.io/client/ios_sdk/)
+4. [环信即时IM系统](http://www.easemob.com/downloads/iOSSDK-20141018.zip)
+
+> ## 结语
+> 本文大部分转载自简书作者:[Aufree](http://www.jianshu.com/u/59e483392095)的文章[公司用到的一些 iOS 开源库和第三方组件](http://www.jianshu.com/p/207a3879c41f) 非常感谢!同时感谢[Github](https://github.com) 感谢开源
+> 本文不定时更新
+
+
+
+
