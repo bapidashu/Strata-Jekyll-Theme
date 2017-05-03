@@ -1,8 +1,0 @@
----
-layout: post
-title: popopopopopop
-date: 2016-07-31T14:37:44.000Z
-categories: update
----
-<img src="/images/fulls/02.jpg" class="fit image">
-今天自己成功的把自己的博客建立了起来,很开心^-^.
