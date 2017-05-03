@@ -12,3 +12,30 @@ categories: update
 + [云片网络](https://www.yunpian.com/)
 + [Mob.com](http://mob.com/#/index)
 + [畅天游](http://changty.com/index.html)
+
+## 2. 社会化分享
++ [ShareSDK](http://sharesdk.mob.com/#/sharesdk)
++ [百度社会化分享组件](http://developer.baidu.com/soc/share)
++ [友盟社会化分享](http://www.umeng.com/social)
+
+## 3. 推送服务
++ [极光推送](https://www.jpush.cn/)
++ [个推推送](http://www.getui.com/)
++ [腾讯信鸽推送](http://xg.qq.com/)
++ [百度云推送](http://developer.baidu.com/cloud/push)
++ [小米推送](http://dev.xiaomi.com/doc/?page_id=1670)
+
+## 4. 数据统计分析
++ [友盟](http://www.umeng.com/)
++ [转化大师](http://conv.mobi/)
++ [Talking Data](https://www.talkingdata.com/)
++ [百度统计](http://tongji.baidu.com/)
++ [诸葛 IO](http://zhugeio.com/)
+
+## 5. 即时通讯
+在线聊天是一个通用性很强，但又相对难开发的功能，对于很多应用来说聊天只是一个附加的锦上添花的功能（比如很多 O2O 应用的咨询功能），专门投入精力做即时通讯需要消耗大量的开发资源，这时就可以通过嵌入第三方 SDK 的方式来实现在线聊天，只需嵌入几行代码即可实现，市面提供即时通讯的服务有：
++ [网易云信](http://netease.im/)
++ [极光 IM](https://www.jpush.cn/common/im)
++ [融云](http://www.rongcloud.cn/)
++ <a href="http://www.easemob.com/products" target="_blank">环信</a>
+
