@@ -1,13 +1,14 @@
 ---
-layout: post
-title:  app 创业要知道的产品和服务
-date:   2016-08-27 01:08:00 +0800
-categories: iOS
-tag: 学习资料
+layout:     post
+title:      "「知乎」如何评价 MIUI 6？"
+date:       2014-08-16 12:00:00
+author:     "Hux"
+header-img: "img/post-bg-miui6.jpg"
+tags:
+    - 知乎
+    - MIUI
+    - Android
 ---
-
-* content
-{:toc}
 
 
 
