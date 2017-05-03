@@ -39,3 +39,15 @@ categories: update
 + [融云](http://www.rongcloud.cn/)
 + <a href="http://www.easemob.com/products" target="_blank">环信</a>
 
+## 6. 客服
++ <a href="https://meiqia.com/" target="_blank">美洽</a>
++ <a href="http://www.sobot.com/" target="_blank">智齿客服</a>
+
+## 7. 支付
++ <a href="https://pingxx.com/" target="_blank">PING++</a> 简单几行代码实现支付宝、微信、银联、Apple Pay 等多家支付渠道的对接
++ <a href="https://beecloud.cn/" target="_blank">BeeCloud</a>
+
+## 8.性能监控
+
+
+
