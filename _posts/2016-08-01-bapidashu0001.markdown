@@ -53,7 +53,7 @@ categories: update
 4. [环信即时IM系统](http://www.easemob.com/downloads/iOSSDK-20141018.zip)
 
 > ## 结语
-> 本文大部分转载自简述作者:[Aufree](http://www.jianshu.com/u/59e483392095)的文章[公司用到的一些 iOS 开源库和第三方组件](http://www.jianshu.com/p/207a3879c41f) 非常感谢!同时感谢[Github](https://github.com) 感谢开源
+> 本文大部分转载自简书作者:[Aufree](http://www.jianshu.com/u/59e483392095)的文章[公司用到的一些 iOS 开源库和第三方组件](http://www.jianshu.com/p/207a3879c41f) 非常感谢!同时感谢[Github](https://github.com) 感谢开源
 > 本文不定时更新
 
 
