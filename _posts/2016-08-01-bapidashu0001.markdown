@@ -10,9 +10,13 @@ categories: update
 分享一下我们iOS开发者在项目中项目中用到的一些iOS开源库和第三方组件,**感谢开源**,减少了我们的劳动力,节约了我们大量的时间, 让我们有更多的时间和精力能更加专注的做好自己的产品
 
 ## 常用的cocoapod安装的第三方库
-
 1. [AFNetworking](https://github.com/AFNetworking/AFNetworking) 网络请求框架
 2. [FMDB](https://github.com/ccgus/fmdb) 本地数据库组件
+3. [SDWebImage](https://github.com/rs/SDWebImage) 用途广泛的图片缓存下载显示组件,功能强大
+4. [Reachability](https://github.com/tonymillion/Reachability) 大规模使用的检测网络的几个类
+5. [DateTools](https://github.com/MatthewYork/DateTools) 友好化时间
+6. [MBProgressHUD](https://github.com/jdg/MBProgressHUD) 弹出提示框的控件,但是现在基本上被[SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) 代替,SVP使用和配置更简便,可以满足我们大部分的需求,但是如果定制一些比较复杂的弹出框的时候,还是建议用MBP
+7. 
 
 
 
