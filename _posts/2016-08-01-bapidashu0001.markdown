@@ -28,6 +28,28 @@ categories: update
 16. [AFSwipeToHide](https://github.com/appfigures/AFSwipeToHide) 页面滚动时隐藏工具栏
 17. [BaiduTranslate](https://github.com/summerblue/baidu-translate-ios-sdk) 非官方百度翻译工具
 18. [JSBadgeView](https://github.com/JaviSoto/JSBadgeView) 添加带动画效果的未读消息数提醒
+19. [Masonry](https://github.com/SnapKit/Masonry) OC中用的最多的布局框架,用于替换官方的 AutoLayout 写法,当然你如果用swift的话,也有Swift版的[SnapKit](https://github.com/SnapKit/Masonry)
+20. [MMPlaceHolder](https://github.com/adad184/MMPlaceHolder) 可在应用中显示视图的尺寸
+21. [TOWebViewController](https://github.com/TimOliver/TOWebViewController) 可在应用中嵌套 Web 页面
+
+## 常用的第三方类库安装
+1. [MJRefresh](https://github.com/CoderMJLee/MJRefresh) 下拉刷新，上拉加载更多组件,当然李明杰还有个比较著名的字典转模型的库[MJExtension](https://github.com/CoderMJLee/MJExtension)
+2. [CNPPopupController](https://github.com/carsonperrotti/CNPPopupController) 创建弹出卡片视图
+3. [FeSpinner](加入沙漏等多种动画加载效果) 
+4. [CRToast](https://github.com/cruffenach/CRToast) 从应用状态栏弹出消息提醒
+5. [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) 为 TableView 和 CollectionView 展示空数据视图,这个相信很多人都遇到过
+6. [FXBlurView](https://github.com/nicklockwood/FXBlurView) 对视图进行模糊操作,这个虽然苹果官方有毛玻璃效果的开源类,但是用起来不顺手,而且会有一些小问题
+7. [AreaPicker](https://github.com/cloudorz/areapicker) 省市地理位置选择器,以后选择省市的时候再也不用去自己找数据了
+8. [MLAudioRecorder](http://www.jianshu.com/p/MLAudioRecorder) 边录边转码, 播放网络音频Button(本地缓存), 实时语音
+9. [MPTextView](https://github.com/cbowns/MPTextView) 支持占位符的 UITextView 子类扩展
+10. [THProgressView](https://github.com/tiagomnh/THProgressView) 微型加载进度条
+11. [VPImageCropper](https://github.com/windshg/VPImageCropper) 轻松实现微信选取图片并裁剪成头像的控件
+
+
+> ## 结语
+> 本文大部分转载自简述作者:[Aufree](http://www.jianshu.com/u/59e483392095)的文章[公司用到的一些 iOS 开源库和第三方组件](http://www.jianshu.com/p/207a3879c41f) 非常感谢!同时感谢[Github](https://github.com) 感谢开源
+> 本文不定时更新
+
 
 
 
