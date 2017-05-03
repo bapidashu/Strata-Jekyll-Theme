@@ -16,7 +16,18 @@ categories: update
 4. [Reachability](https://github.com/tonymillion/Reachability) 大规模使用的检测网络的几个类
 5. [DateTools](https://github.com/MatthewYork/DateTools) 友好化时间
 6. [MBProgressHUD](https://github.com/jdg/MBProgressHUD) 弹出提示框的控件,但是现在基本上被[SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) 代替,SVP使用和配置更简便,可以满足我们大部分的需求,但是如果定制一些比较复杂的弹出框的时候,还是建议用MBP
-7. 
+7. [MWPhotoBrowser](https://github.com/mwaterfall/MWPhotoBrowser) 一款简单实用的iOS照片浏览控件
+8. [CTAssetsPickerController](https://github.com/chiunam/CTAssetsPickerController) 一个选择器组件, 支持从用户的相片库选择多张照片和视频。
+9. [TZImagePickerController](https://github.com/bapidashu/TZImagePickerController) 一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能，支持iOS6+
+10. [UAAppReviewManager](https://github.com/UrbanApps/UAAppReviewManager) 一个能够让你方便地将提醒用户评分的功能加入 App 的工具
+11. [Mantle](https://github.com/Mantle/Mantle) 主要用来将 JSON 数据模型化为 Model 对象
+12. [MTLFMDBAdapter](https://github.com/tanis2000/MTLFMDBAdapter) Mantle 和 FMDB 的转换工具
+13. [FMDBMigrationManager](https://github.com/layerhq/FMDBMigrationManager) 支持 iOS SQLite 数据库迁移
+14. [GVUserDefaults](https://github.com/gangverk/GVUserDefaults) 对 NSUserDefaults 进行了封装, 方便的进行本地化存储操作
+15. [FCCurrentLocationGeocoder](https://github.com/fabiocaccamo/FCCurrentLocationGeocoder) 对用户当前地理位置进行正向地址编码和反向地址编码
+16. [AFSwipeToHide](https://github.com/appfigures/AFSwipeToHide) 页面滚动时隐藏工具栏
+17. [BaiduTranslate](https://github.com/summerblue/baidu-translate-ios-sdk) 非官方百度翻译工具
+18. [JSBadgeView](https://github.com/JaviSoto/JSBadgeView) 添加带动画效果的未读消息数提醒
 
 
 
