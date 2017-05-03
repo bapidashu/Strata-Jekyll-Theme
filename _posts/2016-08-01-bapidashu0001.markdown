@@ -46,6 +46,12 @@ categories: update
 11. [VPImageCropper](https://github.com/windshg/VPImageCropper) 轻松实现微信选取图片并裁剪成头像的控件
 
 
+## 常用的第三方服务
+1. [阿里云](https://www.aliyun.com/?utm_medium=text&utm_source=bdbrand&utm_campaign=bdbrand&utm_content=se_32492)
+2. [友盟社会化组件](http://dev.umeng.com/social/ios/sdk-download)
+3. [极光推送](http://docs.jpush.io/client/ios_sdk/)
+4. [环信即时IM系统](http://www.easemob.com/downloads/iOSSDK-20141018.zip)
+
 > ## 结语
 > 本文大部分转载自简述作者:[Aufree](http://www.jianshu.com/u/59e483392095)的文章[公司用到的一些 iOS 开源库和第三方组件](http://www.jianshu.com/p/207a3879c41f) 非常感谢!同时感谢[Github](https://github.com) 感谢开源
 > 本文不定时更新
