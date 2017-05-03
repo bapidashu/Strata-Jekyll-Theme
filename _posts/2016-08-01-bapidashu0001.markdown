@@ -1,9 +1,16 @@
 ---
 layout: post
-title: 常用的iOS第三方组件和开源库
-date: 2016-07-31T14:37:44.000Z
-categories: update
+title:  iOS常用的组件和第三方库
+date:   2016-08-27 01:08:00 +0800
+categories: document
+tag: 教程
 ---
+
+* content
+{:toc}
+
+
+
 
 <img src="/images/fulls/02.jpg" class="fit image">
 ## 前提
