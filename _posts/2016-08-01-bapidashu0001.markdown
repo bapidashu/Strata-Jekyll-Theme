@@ -4,6 +4,11 @@ title:  iOS常用的组件和第三方库
 date:   2016-08-27 01:08:00 +0800
 categories: iOS
 tag: 学习资料
+    - Object-C
+    - iOS
+    - APP
+    - 软件开发
+
 ---
 
 * content
