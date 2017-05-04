@@ -1,7 +1,7 @@
 # Site settings
 title: 扒皮大叔的博客
 SEOTitle: 周广平的博客 | bapidashu Blog
-header-img: img/home-bg.jpg
+header-img: img/home_bg01.jpg
 email: 776764543@qq.com 
 description: "未曾青梅，青梅枯萎，芬芳满地不见竹马，竹马老去，相思万里从此，我爱上的人都很像你"
 keyword: "那时我们有梦，关于文学，关于爱情，关于穿越世界的旅行。如今我们深夜饮酒，杯子碰到一起，都是梦破碎的声音。 --北岛"
@@ -70,8 +70,8 @@ ga_domain: bapidashu.com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我就是我<br>是颜色不一样的屌丝"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "我就是我,<br>是颜色不一样的屌丝."
+sidebar-avatar: /img/user_icon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
