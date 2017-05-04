@@ -2,8 +2,8 @@
 layout:     keynote
 title:      "「iOS」常用的组件和第三方库"
 subtitle:   "Slides: Progressive Web Apps, Make Web Great Again. (QCon Shanghai 2016)"
-iframe:     "//huangxuan.me/pwa-qcon2016/"
-navcolor:   "invert"
+<!--iframe:     "//huangxuan.me/pwa-qcon2016/"
+navcolor:   "invert" -->
 date:       2016-10-20
 author:     "扒皮大叔"
 tags:
