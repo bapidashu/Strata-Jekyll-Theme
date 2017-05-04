@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "「知乎」如何评价 MIUI 6？"
+title:      "「APP创业」常用的产品和服务"
 date:       2014-08-16 12:00:00
 author:     "Hux"
 header-img: "img/post-bg-miui6.jpg"
 tags:
-    - 知乎
-    - MIUI
-    - Android
+    - 创业
+    - iOS
+    - APP
 ---
 
 
