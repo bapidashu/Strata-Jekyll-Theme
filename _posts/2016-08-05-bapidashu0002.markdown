@@ -14,7 +14,7 @@ tags:
 
 
 
-<img src="/styles/images/blogImg/blog0001.jpg" class="fit image">
+<img src="/img/blogImg/blog0001.jpg" class="fit image">
 
 随着移动互联网创业的火热，面向创业者的产品和服务越来越多，它们涉及到 APP 生命周期的方方面面，合理使用这些服务，可以大大加快研发速度，节省成本，我整理了一个常见服务的列表，不定期更新。
 
