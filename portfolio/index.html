@@ -25,9 +25,9 @@ layout: default
 				<ul class="cbp_tmtimeline">
 					<li>
 						<div class="cbp_tmlabel">
-							<h2 id="boxoffice">Yanshuo.io (演说.io)</h2>
+							<h2 id="boxoffice">广告位招租</h2>
 							<time>2016.06</time>
-							<img src="images/work-yanshuo.jpg">
+							<img src="/img/guangGao.jpg">
 							<ul>
 								<li>
 									"Yanshuo.io" is an online full-featured presentation software to create Web-based slides which are linkable, sharable, cross-platform and without delivery friction. It differentiate from traditional presentation tools such as Powerpoint and Keynote due to its web-friendly and its strong belief in Web.
@@ -40,7 +40,7 @@ layout: default
 							</ul>
 						</div>
 					</li>
-					<li>
+					<!--<li>
 						<div class="cbp_tmlabel">
 							<h2 id="boxoffice">BoxOffice @Wepiao</h2>
 							<time>2015.09</time>
@@ -95,7 +95,7 @@ layout: default
 								</li>
 							</ul>
 						</div>
-					</li>
+					</li> -->
 					<!--<li>
 						<div class="cbp_tmlabel">
 							<h2>SENOVA WebApp</h2>
@@ -113,7 +113,7 @@ layout: default
 							</ul>
 						</div>
 					</li>-->
-					<li>
+					<!--<li>
 						<div class="cbp_tmlabel">
 							<h2 id="hslider">jQuery.HSlider</h2>
 							<time>2013.10</time>
@@ -130,8 +130,8 @@ layout: default
 								</li>
 							</ul>
 						</div>
-					</li>
-					<li>
+					</li>-->
+					<!--<li>
 						<div class="cbp_tmlabel">
 							<h2>《真相不止一个》</h2>
 							<time>2013.10</time>
@@ -194,11 +194,10 @@ layout: default
 								</li>
 							</ul>
 						</div>
-					</li>
-					{% if site.duoshuo_username %}
+					</li> -->
+					<!--{% if site.duoshuo_username %}
 					<li>
 						<div class="cbp_tmlabel">
-			                <!-- 多说评论框 start -->
 			                <div class="comment">
 			                    <div class="ds-thread"
 									data-thread-key="{{site.duoshuo_username}}/portfolio"
@@ -206,20 +205,16 @@ layout: default
 			                        data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
 			                    </div>
 			                </div>
-			                <!-- 多说评论框 end -->
 						</div>
-					</li>
-					{% endif %}
+					</li> 
+					{% endif %}-->
 				</ul>
 			</div>
 		</div>
-		{% if site.duoshuo_username %}
-		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-		<script type="text/javascript">
-		    // dynamic User by Hux
-		    var _user = '{{site.duoshuo_username}}';
 
-		    // duoshuo comment query.
+		<!--{% if site.duoshuo_username %}
+		<script type="text/javascript">
+		    var _user = '{{site.duoshuo_username}}';
 		    var duoshuoQuery = {short_name: _user };
 		    (function() {
 		        var ds = document.createElement('script');
@@ -230,7 +225,16 @@ layout: default
 		         || document.getElementsByTagName('body')[0]).appendChild(ds);
 		    })();
 		</script>
-		<!-- 多说公共JS代码 end -->
-		{% endif %}
+		{% endif %}-->
+		<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: document.location.href, 
+    sourceId: "",
+    productKey: "bb845f232a7e4ff7b1722fc3a62e1cba",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 	</body>
 </html>
