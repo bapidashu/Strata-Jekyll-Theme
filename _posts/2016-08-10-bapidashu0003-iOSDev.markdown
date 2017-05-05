@@ -4,7 +4,7 @@ title:      "「简书」iOS开发如何入门"
 subtitle:   "系统讲述了如何入门iOS开发这个坑"
 date:       2016-08-10 12:00:00
 author:     "扒皮大叔"
-header-img: "img/post-bg-re-0001.jpg"
+header-img: "img/post-bg-0001.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
