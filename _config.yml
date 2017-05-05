@@ -90,17 +90,17 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Su",
-        href: "http://su.gallery/"
+        title: "sunnyxx的技术博客",
+        href: "http://blog.sunnyxx.com"
     },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "OneV's Den",
+        href: "https://onevcat.com"
     },{
         title: "前端外刊评论",
         href: "http://qianduan.guru/"
     },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
+        title: "唐巧的博客",
+        href: "http://blog.devtang.com"
     },{
         title: "Luke 的自留地",
         href: "http://hmqk1995.github.io"
