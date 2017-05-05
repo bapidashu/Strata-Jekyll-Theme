@@ -21,7 +21,7 @@ tags:
 + [Learn Objective-C](http://cocoadevcentral.com/d/learn_objectivec/) 这也是广受推荐的一份文档，短小精练，适合入门。
 + [Programming in Objective-C 2.0](http://www.amazon.com/Programming-Objective-C-Edition-Developers-Library/dp/0321811909) 原书已经出到第四版了，建议阅读原版，中文版是根据第二版翻译的。此书比较适合入门，它甚至涵盖了 C 语言一些知识。而不像[《Objective-C基础教程》](http://book.douban.com/subject/3864073/)直接就进入 Objective-C 及面向对象的一些思想。
 
-# iOS开发
+#iOS开发
 + [iOS Developer Library](https://developer.apple.com/library/ios/navigation/)，官方的文档库，也是最靠谱的资料了，在 Xcode 中也可以下载后直接查阅。
 + [<<Beginning iOS 6 Development: Exploring the iOS SDK>>](http://www.amazon.com/Beginning-iOS-Development-Exploring-SDK/dp/1430245123)这个书算是用得比较多的一本了，当初我也是看着这本边学边做。且作者也比较勤快，基本跟随 iOS 更新的步伐，每年修订。当时我看的是 iOS 5 的版本，也建议任何学习资料要看要 iOS 5 以后版本的，因为其引入了 ARC，在内存管理方面和以前的方式有很大的不同。
 + [iOS Programming: The Big Nerd Ranch Guide](http://www.amazon.com/iOS-Programming-Ranch-Guide-Guides/dp/0321821521) ，比起上面那本这本涉及的面会稍微广些，建议辅助用。
