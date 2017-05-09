@@ -2,7 +2,7 @@
 layout:     post
 title:      "「原创」iOS中UITableView使用细节"
 subtitle:   "让我们能更好的去使用UITableView"
-date:       2016-08-10 12:00:00
+date:       2016-08-16 12:00:00
 author:     "扒皮大叔"
 header-img: "img/post-bg-0002.jpg"
 header-mask: 0.3
@@ -51,11 +51,10 @@ self.tableView.rowHeight = UITableViewAutomaticDimension;
 自定义cell时，记得将其他内容加到`self.contentView`上，而不是直接添加到` cell `本身上
 
 > ## 总结
-> 1.自定义cell时，
+> 1. 自定义cell时，
 若使用nib，使用 `registerNib:` 注册，dequeue时会调用 cell 的 `-(void)awakeFromNib`
 不使用nib，使用 `registerClass:` 注册, dequeue时会调用 cell 的 `- (id)initWithStyle:withReuseableCellIdentifier:`
-> </br>
-> 2.需不需要注册？
+> 2. 需不需要注册？
 使用`dequeueReuseableCellWithIdentifier:`可不注册，但是必须对获取回来的cell进行判断是否为空，若空则手动创建新的cell；
 使用`dequeueReuseableCellWithIdentifier:forIndexPath:`必须注册，但返回的cell可省略空值判断的步骤。
 
