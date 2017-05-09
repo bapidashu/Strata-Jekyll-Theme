@@ -16,7 +16,7 @@ tags:
 > ## 前言 
 > 有的时候我们需要在这个界面push进来或者pop出去的时候做一些判断和操作,但是系统并没有给出直接的方法让我们去判断是push还是pop,所以这时候我们就需要用下面的方法去判断
 
-1. 我们先要了解在控制器消失之前会调用的两个方法
+我们先要了解在控制器消失之前会调用的两个方法
 ```C
 - (void)viewWillDisappear:(BOOL)animated;
 -(void)viewDidDisappear:(BOOL)animated;
@@ -64,4 +64,4 @@ tags:
 }
 ```
 
-> ## 希望能帮助大家,本文转载自(CSDN)[http://www.csdn.net/?ref=toolbar],作者:(EverStar's Blog)[http://my.csdn.net/liu1347508335]
+>  希望能帮助大家,本文转载自(CSDN)[http://www.csdn.net/?ref=toolbar],作者:(EverStar's Blog)[http://my.csdn.net/liu1347508335]
