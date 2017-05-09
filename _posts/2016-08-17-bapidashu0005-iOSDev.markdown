@@ -16,7 +16,7 @@ tags:
 > ## 前言 
 > 有的时候我们需要在这个界面push进来或者pop出去的时候做一些判断和操作,但是系统并没有给出直接的方法让我们去判断是push还是pop,所以这时候我们就需要用下面的方法去判断
 
-我们先要了解在控制器消失之前会调用的两个方法
+### 我们先要了解在控制器消失之前会调用的两个方法
 ```C
 - (void)viewWillDisappear:(BOOL)animated;
 -(void)viewDidDisappear:(BOOL)animated;
@@ -34,16 +34,16 @@ tags:
     }
 }
 ```
-页面出现时会先后执行：
+### 页面出现时会先后执行：
 ```C
 -(void)viewWillAppear:(BOOL)animated
 -(void)viewDidAppear:(BOOL)animated
 ```
-这两个方法；如果是push出来的页面则还会执行：
+### 这两个方法；如果是push出来的页面则还会执行：
 ```C
 - (void)viewDidLoad
 ```
-所以可在viewdidload里加个 isPush = YES布尔值,然后在Appear中根据isPush判断是push还是pop：
+### 所以可在viewdidload里加个 isPush = YES布尔值,然后在Appear中根据isPush判断是push还是pop：
 ```Object-C
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -55,7 +55,7 @@ tags:
 }
 ```
 
-别忘了页面消失时置isPush为NO:
+### 别忘了页面消失时置isPush为NO:
 ```C
 - (void)viewWillDisappear:(BOOL)animated
 {
