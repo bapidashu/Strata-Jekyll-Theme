@@ -1,5 +1,5 @@
 ---
-layout:     keynote
+layout:     post
 title:      "「iOS」常用的组件和第三方库"
 subtitle:   "iOS开发必备"
 date:       2016-08-01
