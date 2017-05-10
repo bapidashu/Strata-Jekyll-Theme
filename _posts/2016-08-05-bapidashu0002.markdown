@@ -3,7 +3,7 @@ layout:     post
 title:      "「APP创业」常用的产品和服务"
 date:       2014-08-05 12:00:00
 author:     "扒皮大叔"
-header-img: "img/post-bg-miui6.jpg"
+header-img: "img/blog0001.jpg"
 tags:
     - 创业
     - iOS
@@ -14,7 +14,7 @@ tags:
 
 
 
-<img src="/img/blogImg/blog0001.jpg" class="fit image">
+<!--<img src="/img/blogImg/blog0001.jpg" class="fit image"> -->
 
 随着移动互联网创业的火热，面向创业者的产品和服务越来越多，它们涉及到 APP 生命周期的方方面面，合理使用这些服务，可以大大加快研发速度，节省成本，我整理了一个常见服务的列表，不定期更新。
 
