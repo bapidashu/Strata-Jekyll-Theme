@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "「APP创业」常用的产品和服务"
-date:       2014-08-05 12:00:00
+date:       2016-08-05 12:00:00
 author:     "扒皮大叔"
 header-img: "img/blog0001.jpg"
 tags:
