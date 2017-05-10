@@ -37,7 +37,7 @@ gem sources -l
 ```
 sudo gem install cocoapods
 ```
-## 备注：苹果系统升级 OS X EL Capitan 后改为
+#### 备注苹果系统升级 OS X EL Capitan 后改为
 ```
 sudo gem install -n /usr/local/bin cocoapods
 ```
@@ -54,7 +54,7 @@ sudo gem update --system
 ![img](/img/post_cocoapod/cocoapod04.jpg)
 到此`cocoapods`安装最新版本完成
 
-## 2. 如何使用CocoaPods 
+## 2.如何使用CocoaPods 
 + 新建一个demo工程
 ![img](/img/post_cocoapod/cocoapod05.jpg)
 + 在终端转到该工程路径下，创建一个Podfile文件
@@ -85,7 +85,7 @@ sudo gem update --system
 > 如果你想要搜出确定的库，使用例如 pod search AFNetworking 命令
 > ![img](/img/post_cocoapod/cocoapod17.jpg)
 
-## 3. 想要删除已有cocoapods集成的库，恢复原先工程
+## 3.想要删除已有cocoapods集成的库，恢复原先工程
 * 1.删除工程文件夹下的`Podfile、Podfile.lock`和`Pods`文件夹
 ![img](/img/post_cocoapod/cocoapod18.jpg)
 * 2.删除`xcworkspace`文件
@@ -96,7 +96,7 @@ sudo gem update --system
 ![img](/img/post_cocoapod/cocoapod21.jpg)
 
 
-> ** 结语
+> ## 结语
 > 以上北荣转载自简述作者:[iOS小乔](http://www.jianshu.com/users/f029d92cedc0/latest_articles),非常感谢.
 
 
