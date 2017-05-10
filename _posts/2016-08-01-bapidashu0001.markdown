@@ -4,6 +4,7 @@ title:      "「iOS」常用的组件和第三方库"
 subtitle:   "iOS开发必备"
 date:       2016-08-01
 author:     "扒皮大叔"
+header-img: "/img/blog0001.jpg"
 tags:
     - iOS
     - 软件开发
@@ -12,7 +13,7 @@ tags:
 
 
 
-<img src="/img/blog0001.jpg" class="fit image">
+<!-- <img src="/img/blog0001.jpg" class="fit image"> -->
 ## 前提
 分享一下我们iOS开发者在项目中项目中用到的一些iOS开源库和第三方组件,**感谢开源**,减少了我们的劳动力,节约了我们大量的时间, 让我们有更多的时间和精力能更加专注的做好自己的产品
 
