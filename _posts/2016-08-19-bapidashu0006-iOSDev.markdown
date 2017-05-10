@@ -5,7 +5,7 @@ subtitle:   "iOS开发常见问题及解决方案"
 date:       2016-08-19 12:00:00
 author:     "扒皮大叔"
 header-img: "img/post-bg-0003.jpg"
-header-mask: 0.3
+header-mask: 0.4
 catalog:    true
 tags:
     - iOS
@@ -37,7 +37,7 @@ gem sources -l
 ```
 sudo gem install cocoapods
 ```
-#### 备注苹果系统升级 OS X EL Capitan 后改为
+**备注苹果系统升级 OS X EL Capitan 后改为**
 ```
 sudo gem install -n /usr/local/bin cocoapods
 ```
