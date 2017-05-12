@@ -59,6 +59,7 @@ return CGRectContainsPoint(bounds, point);
     [self.view addSubview:view2];
 ```
 你可以一直改`CGRect view2Rect=CGRectInset(view1.bounds, -10, 10);` 这段代码中的后面的两个数值就会发现问题所在了  
+
 ------
 #### 结论
 ***在`CGRectInset(view1.bounds, widthX, heightY)`方法中,`widthX`,`heightY`为负则使用这个方法的视图的点击范围就会在x和y轴的两个方向正增长,反之就往里面缩小***
