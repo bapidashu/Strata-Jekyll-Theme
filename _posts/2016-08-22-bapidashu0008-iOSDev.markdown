@@ -63,6 +63,7 @@ return CGRectContainsPoint(bounds, point);
 ------
 #### 结论
 ***在`CGRectInset(view1.bounds, widthX, heightY)`方法中,`widthX`,`heightY`为负则使用这个方法的视图的点击范围就会在x和y轴的两个方向正增长,反之就往里面缩小***
+
 ------
 ## 当一个控件用autolayout或者Masonry设置约束后如何获得这个控件的真实的frame
 众所周知,当我们用autolayout设置约束后,后面就不能改变这个控件的frame了, 也不能通过修改frame来修改控件的位置.也获取不到当前这个控件真实的frame
