@@ -39,7 +39,7 @@ return CGRectContainsPoint(bounds, point);
 **不用关心注释的地方,只要知道`CGRectInset`这个是什么意思就行了  
 我特地画了一张图
 ![img](/img/post-iOS001.jpg)
-**代码**
+***代码***
 
 ```
     UIView *view1=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
@@ -59,14 +59,14 @@ return CGRectContainsPoint(bounds, point);
     [self.view addSubview:view2];
 ```
 你可以一直改`CGRect view2Rect=CGRectInset(view1.bounds, -10, 10);` 这段代码中的后面的两个数值就会发现问题所在了  
----
+------
 #### 结论
 ***在`CGRectInset(view1.bounds, widthX, heightY)`方法中,`widthX`,`heightY`为负则使用这个方法的视图的点击范围就会在x和y轴的两个方向正增长,反之就往里面缩小***
----
+------
 ## 当一个控件用autolayout或者Masonry设置约束后如何获得这个控件的真实的frame
 众所周知,当我们用autolayout设置约束后,后面就不能改变这个控件的frame了, 也不能通过修改frame来修改控件的位置.也获取不到当前这个控件真实的frame
 但是通过其他方法我们还是可以获得真实的frame的  
-***在设置完约束后加个代码***
+***在设置完约束后加个代码`[leftBtn layoutIfNeeded];`***
 ```
     [headerView addSubview:leftBtn];
     [leftBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -87,8 +87,9 @@ return CGRectContainsPoint(bounds, point);
     NSLog(@"%@lallalllala",NSStringFromCGRect(self.frame));
 }
 ```
-打印之后发现就可以获得了,当然如果还不清楚的,这里有几篇文章写的不错,可以参考一下`注:以下均是'简述'网站` 
----
+打印之后发现就可以获得了,当然如果还不清楚的,这里有几篇文章写的不错,可以参考一下`注:以下均是'简述'网站`   
+
+------
 > * [扩大按钮UIButton的点击范围](http://www.jianshu.com/p/30d4b0110e7e)    
 > * [iOS 开发中关于Frame和约束的简单认识](http://www.jianshu.com/p/59b28de88d7d)
 > * [iOS 扩大按钮的点击范围](http://www.jianshu.com/p/53a99bca0c49)
