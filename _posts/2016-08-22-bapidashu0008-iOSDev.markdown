@@ -13,12 +13,13 @@ tags:
     - 原创
 ---
 
-> #### 前言  
+> ## 前言  
 > 今天在开发的时候需要让一个按钮的点击范围变大,但是不能动他现在的图片和文字的位置  
 > 查了一些资料终于成功了
 
 ## 首先我们要知道在哪里设置按钮的点击范围  
-1. 一般都是建一个基类然后重写下面这个方法  
+1. 一般都是建一个基类然后重写下面这个方法  <br />
+
 ```
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent*)event{
 
@@ -34,10 +35,12 @@ return CGRectContainsPoint(bounds, point);
 
 }
 ```
+
 **不用关心注释的地方,只要知道`CGRectInset`这个是什么意思就行了  
 我特地画了一张图
 ![img](/img/post-iOS001.jpg)
 **代码**
+
 ```
     UIView *view1=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
     
