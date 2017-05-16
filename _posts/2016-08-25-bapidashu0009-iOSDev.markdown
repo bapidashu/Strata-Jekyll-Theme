@@ -15,7 +15,7 @@ tags:
 
 > 最近在iOS开发中，需要使用iOS的画线功能，画线的方法可以写在一个`Controller`视图中，当然这不是最好的方式，建议还是自定义一个`UIView`，并重写`drawRect:`方法，这样后面方便使用，并且不会造成代码的冗长与啰嗦。
 
-## 1. 新建一个类，继承自UIView  <br />
+## 1.新建一个类，继承自UIView  <br />
 重写drawRect:方法：
 ```
 - (void)drawRect:(CGRect)rect {
