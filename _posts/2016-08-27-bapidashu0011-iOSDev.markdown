@@ -16,7 +16,7 @@ tags:
 > ## 前言
 > `UITableView` 是大家经常使用的一款控件,但是大部分人用的很浅,其中的`cell`的复用机制又是其中最最重要的一点
 
-## 什么事cell的复用(个人理解)
+## 什么是`cell`的复用(个人理解)
 苹果在封装`UITableView`这个控件的时候,就考虑到了视图流畅性和多样性.用过这个控件的都知道一般就是实现以下数据源和代理基本上这个控件就加载完成了.   
 但是我们在创建`cell`的时候不知道有么有发现,iOS中,只有cell显示在当前界面,这个cell才会彻底的在内存中创建出来.然后会给这些复用的`cell`一个ID,当视图滑动的时候,消失的cell会被释放,然后放在复用池中,当视图上拉的时候,系统就从复用池中取出对应ID的cell,形成复用,所以不管你有多少个cell,真正在内存中开辟空间的,只有显示在手机屏幕中的那些cell.这样就大大的降低了内存占用,提高流畅性.
 
@@ -97,6 +97,7 @@ tags:
 地址:[自定义cell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell)
 
 4. 一般情况下`tableView`默认是`UITableViewStylePlain`,这种模式中如果有很多组,那么滑动的时候组头就悬浮在顶端,我们只要把模式改成`UITableViewStyleGrouped`,组头就不会悬浮了,当然有人会说改成group之后组头的高度就没有办法控制了,哈哈,之前也遇到过这个问题就是系统会有两个方法来设置组头和组尾的高度的方法,如下:
+
 ```
 #pragma mark 组间距
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
@@ -106,7 +107,8 @@ tags:
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     return 0.001;
 }
-```发现没有,我只需要组头,不需要组尾,但是为什么要设置组尾的高度是0.001呢,因为这两个方法你如果返回的是0,是没有效果的,只有设置非0的值才能生效,但是有的时候我们只需要单个的组头或者组尾,就需要吧不需要的那个间距设置成特别小数值就行了!
+```
+发现没有,我只需要组头,不需要组尾,但是为什么要设置组尾的高度是0.001呢,因为这两个方法你如果返回的是0,是没有效果的,只有设置非0的值才能生效,但是有的时候我们只需要单个的组头或者组尾,就需要吧不需要的那个间距设置成特别小数值就行了!
 
 
 
