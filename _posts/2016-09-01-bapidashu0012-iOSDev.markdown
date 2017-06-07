@@ -22,6 +22,7 @@ tags:
 ![gif](/img/iOSDev-touchPoint.gif)
 **正常情况下我们只需要说点击父视图中的某个视图才执行我们需要的方法**但是在上面这个方法中我们不管点击的是子视图还是父视图都会执行,所以我们要将其区分开来
 1. 首先获取到当前点击的点
+
 ```
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
@@ -29,11 +30,15 @@ tags:
 
 }
 ```
+
 2. 获取到子视图和父视图重叠的点
+
 ```
 point = [self.mainTableView.layer convertPoint:point fromLayer:self.view.layer];
 ```
+
 3. 判断这个点如果在子视图上就执行我们想要的效果,如果这个子视图没有包含这个重叠的点,就是点击在子视图之外的地方
+
 ```
 if ([self.mainTableView.layer containsPoint:point]) {
     NSLog(@"不做任何处理");
@@ -42,9 +47,11 @@ if ([self.mainTableView.layer containsPoint:point]) {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 ```
+
 4. 这样我们在应用中,如果需要判断点击父视图执行某个事件,点击子视图啥都不执行的话,就可以这样做
 ------
 5. 简便方法
+
 ```
 CGPoint point=[[touches anyObject]locationInView:self.view];
 
