@@ -49,7 +49,9 @@ if ([self.mainTableView.layer containsPoint:point]) {
 ```
 
 4. 这样我们在应用中,如果需要判断点击父视图执行某个事件,点击子视图啥都不执行的话,就可以这样做
+
 ------
+
 5. 简便方法
 
 ```
