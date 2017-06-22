@@ -21,12 +21,10 @@ tags:
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"我开始点击了");
 #pragma mark - 这是两种队列
-    
     //1.创建串行队列(任务会一个一个的执行)
 //    dispatch_queue_t chuanQueue = dispatch_queue_create("test1.queue", DISPATCH_QUEUE_SERIAL);
     //2.创建并发队列(任务会并发同时执行)
 //    dispatch_queue_t bingQueue = dispatch_queue_create("test2.queue", DISPATCH_QUEUE_CONCURRENT);
-    
 #pragma mark - 这是任务的两种执行方法(同步和异步)
     //3.创建同步执行任务
 //    dispatch_sync(chuanQueue, ^{
@@ -321,7 +319,6 @@ tags:
     });
     NSLog(@"并发队列任务全部执行完");
 }
-
 ```
 
 
