@@ -36,11 +36,6 @@ tags:
 //    dispatch_async(chuanQueue, ^{
 //        NSLog(@"%@---我是异步任务",[NSThread currentThread]);
 //    });
-```
-
-
-
-
     //一个一个的执行任务就是指串行执行任务
     //5.总共有三种队列(加上主队列),两种执行方法,所以应该有6种组合
     /**
