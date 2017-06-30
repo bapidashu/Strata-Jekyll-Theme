@@ -4,7 +4,7 @@ title:      "「简书」iOS中计算文件大小两种方法"
 subtitle:   "iOS开发常见问题及解决方案"
 date:       2016-09-04 12:00:00
 author:     "扒皮大叔"
-header-img: "img/post-bg-0008.jpg"
+header-img: "img/post-bg-0009.jpg"
 header-mask: 0.4
 catalog:    true
 tags:
@@ -13,7 +13,9 @@ tags:
     - 原创
 ---
 
-> ## 计算文件或者文件夹的占用内存空间的大小   
+> ## 计算文件或者文件夹的占用内存空间的大小 
+
+
 + 场景需求:给一个文件,或者文件夹,计算出这个文件或者文件夹的大小(字符串);
 + 分析:
 + 文件的操作需要用到文件管理者NSFileManager这个类来操作
