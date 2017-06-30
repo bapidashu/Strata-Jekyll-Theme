@@ -25,7 +25,6 @@ tags:
 + 其他地方调用示例:
 
 1. 方法一
-
 ```
 NSString *size = @"/Users/chuanzhang/Desktop/daima".fileSize;
 ```
