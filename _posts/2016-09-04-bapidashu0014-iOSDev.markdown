@@ -23,7 +23,9 @@ tags:
 + 如果是文件夹,需要层层对里面的文件夹进行遍历
 + 为了方便项目中其他地方也用到计算文件大小,应该抽取成分类;不建议新增一个类,这样会增加内存,直接给NSString扩充一个分类;
 + 其他地方调用示例:
+
 1. 方法一
+
 ```
 NSString *size = @"/Users/chuanzhang/Desktop/daima".fileSize;
 ```
