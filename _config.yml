@@ -4,7 +4,7 @@ SEOTitle: 扒皮大叔的博客,技术博客,扒皮大叔的技术博客
 header-img: img/home_bg01.jpg
 email: 776764543@qq.com 
 description: "周广平的技术博客,扒皮大叔的技术博客,bapidashu blog"
-keyword: "技术博客,扒皮大叔的博客,bapidashu.com,iOS,iOS开发,前端,周广平,周广平的博客,个人博客,简书,知乎,程序员,新浪博客,原创,blog"
+keyword: "扒皮大叔的技术博客,bapidashu.com,iOS开发,周广平的博客,原创个人博客blog"
 url: "http://www.bapidashu.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -73,7 +73,7 @@ ga_domain: bapidashu.com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我就是我,<br>是颜色不一样的屌丝."
+sidebar-about-description: "我是周广平,大家都喜欢叫我周扒皮,所以我就是扒皮大叔^-^<br>很高兴认识大家."
 sidebar-avatar: /img/user_icon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -108,8 +108,8 @@ friends: [
         title: "Luke 的自留地",
         href: "http://hmqk1995.github.io"
     },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
+        title: "王寒大神的博客",
+        href: "devwhan.com"
     },{
         title: "SmdCn's Blog",
         href: "http://blog.smdcn.net"
