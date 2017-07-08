@@ -449,6 +449,10 @@ $      匹配字符串的结尾
 }
 ```
 
+> ### 本文内容来来源于简书文章,对其归纳整理,并写了一个分类,感谢开源,侵删
+> 1. 来源1:[iOS 正则表达式使用](http://www.jianshu.com/p/f19ba9246cbe),作者[Lonely](http://www.jianshu.com/u/8df293c6d308)
+> 2. 来源2:[iOS开发-正则表达式](http://www.jianshu.com/p/00da4d87b777),作者[sindri的小巢](http://www.jianshu.com/u/0cf7d455eb9e)
+
 ```
 /**
  @brief     是否符合最小长度、最长长度，是否包含中文,首字母是否可以为数字
@@ -470,8 +474,4 @@ $      匹配字符串的结尾
     return [self isValidateByRegex:regex];
 }
 ```
-
-> ### 本文内容来来源于简书文章,对其归纳整理,并写了一个分类,感谢开源,侵删
-> 1. 来源1:[iOS 正则表达式使用](http://www.jianshu.com/p/f19ba9246cbe),作者[Lonely](http://www.jianshu.com/u/8df293c6d308)
-> 2. 来源2:[iOS开发-正则表达式](http://www.jianshu.com/p/00da4d87b777),作者[sindri的小巢](http://www.jianshu.com/u/0cf7d455eb9e)
 
