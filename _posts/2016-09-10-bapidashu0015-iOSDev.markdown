@@ -418,9 +418,6 @@ $      匹配字符串的结尾
     NSString *taxNoRegex = @"[0-9]\\\\d{13}([0-9]|X)$";
     return [self isValidateByRegex:taxNoRegex];
 }
-
-
-
 /**
  @brief     是否符合最小长度、最长长度，是否包含中文,首字母是否可以为数字
  @param     minLenth 账号最小长度
@@ -440,11 +437,6 @@ $      匹配字符串的结尾
     NSString *regex = [NSString stringWithFormat:@"%@[%@A-Za-z0-9_]{%d,%d}", first, hanzi, (int)(minLenth), (int)(maxLenth)];
     return [self isValidateByRegex:regex];
 }
-
-
-
-
-
 /**
  @brief     是否符合最小长度、最长长度，是否包含中文,数字，字母，其他字符，首字母是否可以为数字
  @param     minLenth 账号最小长度
@@ -472,10 +464,6 @@ $      匹配字符串的结尾
     NSString *regex = [NSString stringWithFormat:@"%@%@%@%@", lengthRegex, digtalRegex, letterRegex, characterRegex];
     return [self isValidateByRegex:regex];
 }
-
-
-
-
 
 //精确的身份证号码有效性检测
 + (BOOL)accurateVerifyIDCardNumber:(NSString *)value {
@@ -569,10 +557,6 @@ $      匹配字符串的结尾
             return NO;
     }
 }
-
-
-
-
 /** 银行卡号有效性问题Luhn算法
  *  现行 16 位银联卡现行卡号开头 6 位是 622126～622925 之间的，7 到 15 位是银行自定义的，
  *  可能是发卡分行，发卡网点，发卡序号，第 16 位是校验码。
