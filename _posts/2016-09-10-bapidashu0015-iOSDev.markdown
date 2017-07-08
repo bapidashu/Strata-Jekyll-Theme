@@ -215,7 +215,6 @@ $      匹配字符串的结尾
       containOtherCharacter:(NSString *)containOtherCharacter
         firstCannotBeDigtal:(BOOL)firstCannotBeDigtal;
 @end
-
 ```
 
 
