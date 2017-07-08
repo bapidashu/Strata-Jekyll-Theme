@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "「简书」「原创」「转载」iOS正则表达式的使用"
+title:      "「简书」iOS正则表达式的使用"
 subtitle:   "iOS开发常见问题及解决方案"
 date:       2016-09-10 12:00:00
 author:     "扒皮大叔"
