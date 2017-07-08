@@ -255,7 +255,6 @@ $      匹配字符串的结尾
     NSString *MOBILE = @"^1(3[0-9]|4[57]|5[0-35-9]|8[0-9]|70)\\d{8}$";
     return [self isValidateByRegex:MOBILE];
 }
-
 - (BOOL)VerificationCode {
     NSString *regex = @"^[0-9]{6}";
 //    NSString *MOBILE = @"^1(3[0-9]|4[57]|5[0-35-9]|8[0-9]|70)\\d{8}$";
@@ -298,7 +297,6 @@ $      匹配字符串的结尾
      28
      */
     NSString * PHS = @"^0(10|2[0-5789]|\\\\d{3})\\\\d{7,8}$";
-    
     if (([self isValidateByRegex:CM])
         || ([self isValidateByRegex:CU])
         || ([self isValidateByRegex:CT])
@@ -343,7 +341,6 @@ $      匹配字符串的结尾
 - (BOOL)isIPAddress {
     NSString *regex = [NSString stringWithFormat:@"^(\\\\d{1,3})\\\\.(\\\\d{1,3})\\\\.(\\\\d{1,3})\\\\.(\\\\d{1,3})$"];
     BOOL rc = [self isValidateByRegex:regex];
-    
     if (rc) {
         NSArray *componds = [self componentsSeparatedByString:@","];
         
@@ -354,10 +351,8 @@ $      匹配字符串的结尾
                 break;
             }
         }
-        
         return v;
     }
-    
     return NO;
 }
 #pragma mark 判断mac地址是否有效
@@ -385,17 +380,7 @@ $      匹配字符串的结尾
 
 
 ```C
-/**
- @brief     是否符合最小长度、最长长度，是否包含中文,数字，字母，其他字符，首字母是否可以为数字
- @param     minLenth 账号最小长度
- @param     maxLenth 账号最长长度
- @param     containChinese 是否包含中文
- @param     containDigtal   包含数字
- @param     containLetter   包含字母
- @param     containOtherCharacter   其他字符
- @param     firstCannotBeDigtal 首字母不能为数字
- @return    正则验证成功返回YES, 否则返回NO
- */
+
 - (BOOL)isValidWithMinLenth:(NSInteger)minLenth
                    maxLenth:(NSInteger)maxLenth
              containChinese:(BOOL)containChinese
