@@ -449,14 +449,6 @@ $      匹配字符串的结尾
 }
 ```
 
-/**
- @brief     是否符合最小长度、最长长度，是否包含中文,首字母是否可以为数字
- @param     minLenth 账号最小长度
- @param     maxLenth 账号最长长度
- @param     containChinese 是否包含中文
- @param     firstCannotBeDigtal 首字母不能为数字
- @return    正则验证成功返回YES, 否则返回NO
- */
  - (BOOL)isValidWithMinLenth:(NSInteger)minLenth
                    maxLenth:(NSInteger)maxLenth
              containChinese:(BOOL)containChinese
@@ -468,17 +460,6 @@ $      匹配字符串的结尾
     NSString *regex = [NSString stringWithFormat:@"%@[%@A-Za-z0-9_]{%d,%d}", first, hanzi, (int)(minLenth), (int)(maxLenth)];
     return [self isValidateByRegex:regex];
 }
-/**
- @brief     是否符合最小长度、最长长度，是否包含中文,数字，字母，其他字符，首字母是否可以为数字
- @param     minLenth 账号最小长度
- @param     maxLenth 账号最长长度
- @param     containChinese 是否包含中文
- @param     containDigtal   包含数字
- @param     containLetter   包含字母
- @param     containOtherCharacter   其他字符
- @param     firstCannotBeDigtal 首字母不能为数字
- @return    正则验证成功返回YES, 否则返回NO
- */
 - (BOOL)isValidWithMinLenth:(NSInteger)minLenth
                    maxLenth:(NSInteger)maxLenth
              containChinese:(BOOL)containChinese
