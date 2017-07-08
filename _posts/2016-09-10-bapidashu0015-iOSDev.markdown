@@ -453,25 +453,3 @@ $      匹配字符串的结尾
 > 1. 来源1:[iOS 正则表达式使用](http://www.jianshu.com/p/f19ba9246cbe),作者[Lonely](http://www.jianshu.com/u/8df293c6d308)
 > 2. 来源2:[iOS开发-正则表达式](http://www.jianshu.com/p/00da4d87b777),作者[sindri的小巢](http://www.jianshu.com/u/0cf7d455eb9e)
 
-```
-/**
- @brief     是否符合最小长度、最长长度，是否包含中文,首字母是否可以为数字
- @param     minLenth 账号最小长度
- @param     maxLenth 账号最长长度
- @param     containChinese 是否包含中文
- @param     firstCannotBeDigtal 首字母不能为数字
- @return    正则验证成功返回YES, 否则返回NO
- */
- - (BOOL)isValidWithMinLenth:(NSInteger)minLenth
-                   maxLenth:(NSInteger)maxLenth
-             containChinese:(BOOL)containChinese
-        firstCannotBeDigtal:(BOOL)firstCannotBeDigtal {
-    //  [\\u4e00-\\u9fa5A-Za-z0-9_]{4,20}
-    NSString *hanzi = containChinese ? @"\\u4e00-\\u9fa5" : @"";
-    NSString *first = firstCannotBeDigtal ? @"^[a-zA-Z_]" : @"";
-    
-    NSString *regex = [NSString stringWithFormat:@"%@[%@A-Za-z0-9_]{%d,%d}", first, hanzi, (int)(minLenth), (int)(maxLenth)];
-    return [self isValidateByRegex:regex];
-}
-```
-
