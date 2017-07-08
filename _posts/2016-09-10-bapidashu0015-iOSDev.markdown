@@ -157,8 +157,6 @@ $      匹配字符串的结尾
  */
 - (BOOL)matchesRegex:(NSString *)regex options:(NSRegularExpressionOptions)options;
 
-
-
 - (BOOL)isValidPhoneNumber;//普通手机号匹配
 - (BOOL)wl_isMobileNumberClassification;//Plus 版手机号匹配
 
@@ -170,9 +168,6 @@ $      匹配字符串的结尾
 
 - (BOOL)simpleVerifyIdentityCardNum;//身份证有效性
 + (BOOL)accurateVerifyIDCardNumber:(NSString *)value;//精确的身份证有效性判断
-
-
-
 
 - (BOOL)validateCarType;//车型
 
@@ -224,7 +219,9 @@ $      匹配字符串的结尾
 
 ```
 
+
 ------
+
 
 + .m文件
 
@@ -236,11 +233,9 @@ $      匹配字符串的结尾
 //  Created by 扒皮大叔 on 2017/7/4.
 //
 //
-
 #import "NSString+RegularExpressions.h"
 
 @implementation NSString (RegularExpressions)
-
 
 //匹配正则表达式
 - (BOOL)isValidateByRegex:(NSString *)regex {
@@ -259,10 +254,6 @@ $      匹配字符串的结尾
     if (!pattern) return NO;
     return ([pattern numberOfMatchesInString:self options:0 range:NSMakeRange(0, self.length)] > 0);
 }
-
-
-
-
 #pragma mark 手机号匹配
 //因为各个运营商开头号码不同，这里只匹配11位是比较好的方法
 - (BOOL)isValidPhoneNumber {
@@ -276,9 +267,6 @@ $      匹配字符串的结尾
 //    NSString *MOBILE = @"^1(3[0-9]|4[57]|5[0-35-9]|8[0-9]|70)\\d{8}$";
     return [self isValidateByRegex:regex];
 }
-
-
-
 //或者精确点，但需要根据运营商更新
 - (BOOL)wl_isMobileNumberClassification {
     /**
@@ -326,50 +314,37 @@ $      匹配字符串的结尾
         return NO;
     }
 }
-
 #pragma mark 邮箱匹配
 - (BOOL)isEmailAddress {
     NSString *emailRegex = @"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\\\.[A-Za-z]{2,4}";
     return [self isValidateByRegex:emailRegex];
 }
-
-
 #pragma mark 网页地址匹配
 - (BOOL)isValidUrl {
     NSString * regex = @"\\\\b((ftp|http|https?):\\\\/\\\\/[-\\\\w]+(\\\\.\\\\w[-\\\\w]*)+|(?i:[a-z0-9](?:[-a-z0-9]*[a-z0-9])?\\\\.)+(?-i:com\\\\b|edu\\\\b|biz\\\\b|gov\\\\b|in(?:t|fo)\\\\b|mil\\\\b|net\\\\b|org\\\\b|[a-z][a-z]\\\\b))(:\\\\d+)?(/[^.!,?;\\\"'<>()\\\\[\\\\]{}\\\\s\\\\x7F-\\\\xFF]*(?:[.!,?]+[^.!,?;\\\"'<>()\\\\[\\\\]{}\\\\s\\\\x7F-\\\\xFF]+)*)?";
     return [self isValidateByRegex:regex];
 }
-
-
 #pragma mark 简单的身份证有效性
 - (BOOL)simpleVerifyIdentityCardNum {
     NSString *regex2 = @"^(\\\\d{14}|\\\\d{17})(\\\\d|[xX])$";
     return [self isValidateByRegex:regex2];
 }
-
-
 #pragma mark 车型
 - (BOOL)validateCarType {
     NSString *regex2 = @"^[\\u4E00-\\u9FFF]+$";
     return [self isValidateByRegex:regex2];
 }
-
-
 #pragma mark 判断是否有特殊符号
 - (BOOL)effectivePassword {
     NSString *regex2 = @"[a-zA-Z0-9]{6,20}";
     return [self isValidateByRegex:regex2];
 }
-
-
 #pragma mark 判断车牌号是否有效
 - (BOOL)isCarNumber {
     //车牌号:湘K-DE829 香港车牌号码:粤Z-J499港
     NSString *carRegex = @"^[\\u4e00-\\u9fff]{1}[a-zA-Z]{1}[-][a-zA-Z_0-9]{4}[a-zA-Z_0-9_\\u4e00-\\u9fff]$";//其中\\u4e00-\\u9fa5表示unicode编码中汉字已编码部分，\\u9fa5-\\u9fff是保留部分，将来可能会添加
     return [self isValidateByRegex:carRegex];
 }
-
-
 #pragma mark 判断IP地址是否有效
 - (BOOL)isIPAddress {
     NSString *regex = [NSString stringWithFormat:@"^(\\\\d{1,3})\\\\.(\\\\d{1,3})\\\\.(\\\\d{1,3})\\\\.(\\\\d{1,3})$"];
@@ -391,28 +366,21 @@ $      匹配字符串的结尾
     
     return NO;
 }
-
-
 #pragma mark 判断mac地址是否有效
 - (BOOL)isMacAddress {
     NSString * macAddRegex = @"([A-Fa-f\\\\d]{2}:){5}[A-Fa-f\\\\d]{2}";
     return  [self isValidateByRegex:macAddRegex];
 }
-
-
 #pragma mark 判断是否全部都是中文
 - (BOOL)isValidChinese {
     NSString *chineseRegex = @"^[\\u4e00-\\u9fa5]+$";
     return [self isValidateByRegex:chineseRegex];
 }
-
-
 #pragma mark 判断邮政编码是否正确
 - (BOOL)isValidPostalcode {
     NSString *postalRegex = @"^[0-8]\\\\d{5}(?!\\\\d)$";
     return [self isValidateByRegex:postalRegex];
 }
-
 #pragma mark 判断是否是工商税号
 - (BOOL)isValidTaxNo {
     NSString *taxNoRegex = @"[0-9]\\\\d{13}([0-9]|X)$";
