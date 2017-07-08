@@ -384,15 +384,13 @@ $      匹配字符串的结尾
     NSString *taxNoRegex = @"[0-9]\\\\d{13}([0-9]|X)$";
     return [self isValidateByRegex:taxNoRegex];
 }
-/**
  @brief     是否符合最小长度、最长长度，是否包含中文,首字母是否可以为数字
  @param     minLenth 账号最小长度
  @param     maxLenth 账号最长长度
  @param     containChinese 是否包含中文
  @param     firstCannotBeDigtal 首字母不能为数字
  @return    正则验证成功返回YES, 否则返回NO
- */
-- (BOOL)isValidWithMinLenth:(NSInteger)minLenth
+ - (BOOL)isValidWithMinLenth:(NSInteger)minLenth
                    maxLenth:(NSInteger)maxLenth
              containChinese:(BOOL)containChinese
         firstCannotBeDigtal:(BOOL)firstCannotBeDigtal {
