@@ -4,7 +4,7 @@ title:      "AFNetworking3.1 在请求头中加入cookie"
 subtitle:   "iOS开发常见问题及解决方案"
 date:       2016-09-13 13:23:10
 author:     "扒皮大叔"
-header-img: "img/post-bg-0016.jpg"
+header-img: "img/post-bg-0013.jpg"
 header-mask: 0.4
 catalog:    true
 tags:
