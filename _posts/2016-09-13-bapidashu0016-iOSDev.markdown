@@ -43,7 +43,7 @@ NSString *Cookie = [NSString stringWithFormat:@"%@;%@",cooking1,cooking2];
 [self loadSavedCookies]; 
 
 ```
-1.1 打印后的结果为 
+1.1. 打印后的结果为 
 
 ```
 2017-08-14 16:52:59.664713+0800 iOSForEimTin[1077:457541] fields = {
@@ -64,10 +64,10 @@ NSString *Cookie = [NSString stringWithFormat:@"%@;%@",cooking1,cooking2];
 
 ```
 
-1.2 上面可以看到我把整个响应头header都打印出来了,里面`Set-Cookie`对应的字符串就是后台给我传的cookie,我们只要按照后台的需要将对应的字段,对应的键值放到请求头的`Cookie`字段里面就好了,然后我们把需要的字段用偏好设置保存到本地,在需要用的时候,拿出来放到请求头里面就好了,(上面的XXXX是我们后台需要的字段)下面是设置请求头的代码
+1.2. 上面可以看到我把整个响应头header都打印出来了,里面`Set-Cookie`对应的字符串就是后台给我传的cookie,我们只要按照后台的需要将对应的字段,对应的键值放到请求头的`Cookie`字段里面就好了,然后我们把需要的字段用偏好设置保存到本地,在需要用的时候,拿出来放到请求头里面就好了,(上面的XXXX是我们后台需要的字段)下面是设置请求头的代码
 
 
-1.3 保存cookie,设置请求头
+1.3. 保存cookie,设置请求头
 
 ```
 //合适的时机加载持久化后Cookie 一般都是app刚刚启动的时候
@@ -90,7 +90,7 @@ NSString *Cookie = [NSString stringWithFormat:@"%@;%@",cooking1,cooking2];
     
 }
 ```
-1.4 上面的打印
+1.4. 上面的打印
 
 ```
 2017-08-14 16:52:59.667978+0800 iOSForEimTin[1077:457541] 这是header----{
@@ -103,7 +103,7 @@ NSString *Cookie = [NSString stringWithFormat:@"%@;%@",cooking1,cooking2];
 
 ```
 
-1.5 OK 大功告成!
+1.5. OK 大功告成!
 
 
 
